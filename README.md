@@ -19,7 +19,7 @@ Run server
 npm start
 ```
 
-For Generate Image: http://localhost:5003/ . 
+For Generate Image: http://localhost:5003/ .   
 For Grammar correction: http://localhost:5003/translator/ . 
 
 # API end point is
