@@ -3,9 +3,9 @@
 
 ## Usage
 
-Rename the `example.env` file to `.env`.
+Rename the `example.env` file to `.env` or run command in terminal `cp example.env .env`.
 
-Generate an API KEY at [OpenAI](https://beta.openai.com/) and add it to the `.env` file.
+Create an account at [OpenAI](https://beta.openai.com/) and Generate an API KEY. Copy the api key and paste it to the `.env` file.
 
 Install the dependencies
 
@@ -19,8 +19,8 @@ Run server
 npm start
 ```
 
-For Generate Image: http://localhost:5003/
-For Grammar correction: http://localhost:5003/translator/
+For Generate Image: http://localhost:5003/ . 
+For Grammar correction: http://localhost:5003/translator/ . 
 
 # API end point is
     - Generate Image: http://localhost:5003/openai/generateimage
