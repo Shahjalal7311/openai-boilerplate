@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/spinner.css" />
+
+    <script src="js/text_t_main.js" defer></script>
+    <title>OpenAI Boilerplate</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <h2>OpenAI Boilerplate</h2>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li>
+              <a href="https://beta.openai.com/docs" target="_blank"
+                > Docs </a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="showcase">
+        <form id="text-form">
+          <h1>OpenAi Grammar correction</h1>
+          <div class="form-control">
+            <input type="text" id="translate_text_prompt" placeholder="Type text with details" required/>
+          </div>
+          <button type="submit" class="btn">translate</button>
+        </form>
+      </section>
+
+      <section class="image">
+        <div class="image-container">
+          <h2 class="msg_2" style="text-align: center;font-size: 30px;font-weight: 500;"></h2>
+          <p id="translate_text" style="text-align: center;font-size: 30px;font-weight: 500;"></p>
+        </div>
+      </section>
+    </main>
+
+    <div class="spinner"></div>
+  </body>
+</html>
